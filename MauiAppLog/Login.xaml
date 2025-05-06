@@ -17,6 +17,8 @@
         <Label Text="Senha"/>
         <Entry x:Name="txt_senha" IsPassword="True"/>
 
-        <Button Text="Entrar"/>
+        <Button Text="Entrar"
+                Clicked="Button_Clicked"
+                HorizontalOptions="Center"/>
     </VerticalStackLayout>
 </ContentPage>

@@ -63,12 +63,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Compile Update="Behind.xaml.cs">
-	    <DependentUpon>Behind.xaml</DependentUpon>
-	  </Compile>
-	</ItemGroup>
-
-	<ItemGroup>
 	  <MauiXaml Update="Behind.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
